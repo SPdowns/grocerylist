@@ -8,6 +8,7 @@ $(document).ready(function() {
     groceryInputs.sort();
   });
   
+  
   $("#show-list").click(function() {
     event.preventDefault()
     $("#grocery-list").empty();
